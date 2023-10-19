@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA84223A2AD4A9DC00CD6883 /* NewMorosoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8422392AD4A9DC00CD6883 /* NewMorosoView.swift */; };
+		FA84223F2AD58F5B00CD6883 /* Morosos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA84223E2AD58F5B00CD6883 /* Morosos.swift */; };
+		FA8422412AD5C9E400CD6883 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8422402AD5C9E400CD6883 /* SettingsView.swift */; };
+		FA8422432AD6073F00CD6883 /* CalculatorRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8422422AD6073F00CD6883 /* CalculatorRowView.swift */; };
+		FAC86C0F2AD46E5400248EE9 /* ListaDeMorososApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC86C0E2AD46E5400248EE9 /* ListaDeMorososApp.swift */; };
+		FAC86C112AD46E5400248EE9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC86C102AD46E5400248EE9 /* ContentView.swift */; };
+		FAC86C132AD46E5700248EE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC86C122AD46E5700248EE9 /* Assets.xcassets */; };
+		FAC86C162AD46E5700248EE9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC86C152AD46E5700248EE9 /* Preview Assets.xcassets */; };
+		FAC86C1D2AD46E7500248EE9 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC86C1C2AD46E7500248EE9 /* ListView.swift */; };
+		FAC86C1F2AD46E8600248EE9 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC86C1E2AD46E8600248EE9 /* CalculatorView.swift */; };
+		FAC86C212AD4739400248EE9 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC86C202AD4739400248EE9 /* RowView.swift */; };
+		FAC86C232AD4745300248EE9 /* MorosoStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC86C222AD4745300248EE9 /* MorosoStruct.swift */; };
+		FAC86C252AD492C300248EE9 /* ListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC86C242AD492C300248EE9 /* ListDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA8422392AD4A9DC00CD6883 /* NewMorosoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMorosoView.swift; sourceTree = "<group>"; };
+		FA84223B2AD4B13000CD6883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA84223E2AD58F5B00CD6883 /* Morosos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Morosos.swift; sourceTree = "<group>"; };
+		FA8422402AD5C9E400CD6883 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		FA8422422AD6073F00CD6883 /* CalculatorRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorRowView.swift; sourceTree = "<group>"; };
+		FAC86C0B2AD46E5400248EE9 /* ListaDeMorosos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListaDeMorosos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC86C0E2AD46E5400248EE9 /* ListaDeMorososApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaDeMorososApp.swift; sourceTree = "<group>"; };
+		FAC86C102AD46E5400248EE9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAC86C122AD46E5700248EE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAC86C152AD46E5700248EE9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAC86C1C2AD46E7500248EE9 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		FAC86C1E2AD46E8600248EE9 /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		FAC86C202AD4739400248EE9 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		FAC86C222AD4745300248EE9 /* MorosoStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorosoStruct.swift; sourceTree = "<group>"; };
+		FAC86C242AD492C300248EE9 /* ListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAC86C082AD46E5400248EE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA84223C2AD4B2DA00CD6883 /* ListsView */ = {
+			isa = PBXGroup;
+			children = (
+				FAC86C202AD4739400248EE9 /* RowView.swift */,
+				FAC86C1C2AD46E7500248EE9 /* ListView.swift */,
+				FAC86C242AD492C300248EE9 /* ListDetailView.swift */,
+				FA8422392AD4A9DC00CD6883 /* NewMorosoView.swift */,
+			);
+			path = ListsView;
+			sourceTree = "<group>";
+		};
+		FA84223D2AD58F3D00CD6883 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAC86C222AD4745300248EE9 /* MorosoStruct.swift */,
+				FA84223E2AD58F5B00CD6883 /* Morosos.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FAC86C022AD46E5400248EE9 = {
+			isa = PBXGroup;
+			children = (
+				FAC86C0D2AD46E5400248EE9 /* ListaDeMorosos */,
+				FAC86C0C2AD46E5400248EE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAC86C0C2AD46E5400248EE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAC86C0B2AD46E5400248EE9 /* ListaDeMorosos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAC86C0D2AD46E5400248EE9 /* ListaDeMorosos */ = {
+			isa = PBXGroup;
+			children = (
+				FA84223B2AD4B13000CD6883 /* Info.plist */,
+				FAC86C0E2AD46E5400248EE9 /* ListaDeMorososApp.swift */,
+				FAC86C102AD46E5400248EE9 /* ContentView.swift */,
+				FA8422402AD5C9E400CD6883 /* SettingsView.swift */,
+				FA84223D2AD58F3D00CD6883 /* Model */,
+				FA84223C2AD4B2DA00CD6883 /* ListsView */,
+				FAC86C1E2AD46E8600248EE9 /* CalculatorView.swift */,
+				FA8422422AD6073F00CD6883 /* CalculatorRowView.swift */,
+				FAC86C122AD46E5700248EE9 /* Assets.xcassets */,
+				FAC86C142AD46E5700248EE9 /* Preview Content */,
+			);
+			path = ListaDeMorosos;
+			sourceTree = "<group>";
+		};
+		FAC86C142AD46E5700248EE9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FAC86C152AD46E5700248EE9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAC86C0A2AD46E5400248EE9 /* ListaDeMorosos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC86C192AD46E5700248EE9 /* Build configuration list for PBXNativeTarget "ListaDeMorosos" */;
+			buildPhases = (
+				FAC86C072AD46E5400248EE9 /* Sources */,
+				FAC86C082AD46E5400248EE9 /* Frameworks */,
+				FAC86C092AD46E5400248EE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ListaDeMorosos;
+			productName = ListaDeMorosos;
+			productReference = FAC86C0B2AD46E5400248EE9 /* ListaDeMorosos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAC86C032AD46E5400248EE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FAC86C0A2AD46E5400248EE9 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = FAC86C062AD46E5400248EE9 /* Build configuration list for PBXProject "ListaDeMorosos" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAC86C022AD46E5400248EE9;
+			productRefGroup = FAC86C0C2AD46E5400248EE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAC86C0A2AD46E5400248EE9 /* ListaDeMorosos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAC86C092AD46E5400248EE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC86C162AD46E5700248EE9 /* Preview Assets.xcassets in Resources */,
+				FAC86C132AD46E5700248EE9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAC86C072AD46E5400248EE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC86C1F2AD46E8600248EE9 /* CalculatorView.swift in Sources */,
+				FAC86C212AD4739400248EE9 /* RowView.swift in Sources */,
+				FA84223A2AD4A9DC00CD6883 /* NewMorosoView.swift in Sources */,
+				FA84223F2AD58F5B00CD6883 /* Morosos.swift in Sources */,
+				FAC86C112AD46E5400248EE9 /* ContentView.swift in Sources */,
+				FA8422412AD5C9E400CD6883 /* SettingsView.swift in Sources */,
+				FAC86C0F2AD46E5400248EE9 /* ListaDeMorososApp.swift in Sources */,
+				FAC86C232AD4745300248EE9 /* MorosoStruct.swift in Sources */,
+				FA8422432AD6073F00CD6883 /* CalculatorRowView.swift in Sources */,
+				FAC86C1D2AD46E7500248EE9 /* ListView.swift in Sources */,
+				FAC86C252AD492C300248EE9 /* ListDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FAC86C172AD46E5700248EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAC86C182AD46E5700248EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAC86C1A2AD46E5700248EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ListaDeMorosos/Preview Content\"";
+				DEVELOPMENT_TEAM = ZFP567B5YQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ListaDeMorosos/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Morosos;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexros.ListaDeMorosos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAC86C1B2AD46E5700248EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ListaDeMorosos/Preview Content\"";
+				DEVELOPMENT_TEAM = ZFP567B5YQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ListaDeMorosos/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Morosos;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexros.ListaDeMorosos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAC86C062AD46E5400248EE9 /* Build configuration list for PBXProject "ListaDeMorosos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC86C172AD46E5700248EE9 /* Debug */,
+				FAC86C182AD46E5700248EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC86C192AD46E5700248EE9 /* Build configuration list for PBXNativeTarget "ListaDeMorosos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC86C1A2AD46E5700248EE9 /* Debug */,
+				FAC86C1B2AD46E5700248EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAC86C032AD46E5400248EE9 /* Project object */;
+}
